@@ -1,9 +1,9 @@
-import IntroductionMain from "./components/introductions/IntroductionMain"
+import ProjectsMain from "./components/projects/ProjectsMain"
 
 function App() {
   return (
 		<>
-			<IntroductionMain />
+			<ProjectsMain />
 		</>
 	)
 }
