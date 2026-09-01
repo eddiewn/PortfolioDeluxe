@@ -1,18 +1,18 @@
-import type { ReactNode } from "react"
-
     type Props = {
         title: string,
-        image: ReactNode,
+        image: string,
         tags: string[],
     }
 
 function ProjectCard({title, image, tags}: Props){
     return(
         <>
-            <div className="bg-amber-500 h-70 w-[80%] gap-2 p-5 m-auto">
-                {image}
-                {title}
-                {tags}
+            <div className="h-full w-full">
+<div className="relative after:pointer-events-none after:absolute after:inset-0 after:shadow-[inset_0_0_20px_rgba(0,0,0,0.8)]">
+                    <img src={image} alt="" />
+                </div>
+                <h2 className="text-7xl text-white">{title}</h2>
+                <p className="text-purple-700">{tags.join(" / ")}</p>
             </div>
         </>
     )

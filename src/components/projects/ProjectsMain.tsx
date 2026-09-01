@@ -5,14 +5,14 @@ function ProjectsMain() {
   return (
     <>
       <main>
-        <section className="m-auto grid grid-cols-2 gap-2 ">
+        <section className="grid grid-cols-1 md:grid-cols-2 gap-5 justify-items-center w-[80%] mx-auto">
           <ProjectCard title={"prj 1"} image={"hate my chungus"} tags={[]} />
           <ProjectCard
             title={"helo"}
             image={"k"}
-            tags={["React, TailwindCSS"]}
+            tags={["React", "TailwindCSS"]}
           />
-          <ProjectCard title={"chud"} image={<img src={wordlyProject}></img>} tags={[]} />
+          <ProjectCard title={"Wordly"} image={wordlyProject} tags={["React", "PostgresQL", "TailwindCSS"]} />
           <ProjectCard title={"knug"} image={"k"} tags={[]} />
         </section>
       </main>
