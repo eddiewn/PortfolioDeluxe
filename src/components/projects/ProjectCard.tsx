@@ -1,4 +1,5 @@
 import github from "../../assets/images/github.png";
+
 type Props = { title: string; image: string; tags: string[], githubRepoLink:string };
 function ProjectCard({ title, image, tags, githubRepoLink }: Props) {
     return (

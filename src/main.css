@@ -6,6 +6,7 @@ body{
   overflow-y: auto;
   background-color: #161616;
   font-family: "Inconsolata", monospace;
+  color: white;
 }
 
 .card {

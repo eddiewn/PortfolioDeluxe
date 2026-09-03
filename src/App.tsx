@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import HeaderMain from "./components/header/HeaderMain";
 import ProjectsMain from "./components/projects/ProjectsMain";
+import FooterMain from "./components/footer/FooterMain"
 
 function App() {
     return (
@@ -27,6 +28,7 @@ function App() {
                     element={<h1>Contact</h1>}
                 />
             </Routes>
+			<FooterMain />
         </BrowserRouter>
     );
 }
