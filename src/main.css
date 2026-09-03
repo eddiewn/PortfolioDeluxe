@@ -2,7 +2,19 @@
 @import "tailwindcss";
 html,
 body{
-    overflow-x: hidden;
-    background-color: #121212;
-    font-family: "Inconsolata", monospace;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: #161616;
+  font-family: "Inconsolata", monospace;
+}
+
+.card {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.card.show {
+  opacity: 1;
+  transform: translateY(0);
 }

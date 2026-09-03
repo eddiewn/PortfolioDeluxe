@@ -2,11 +2,11 @@ import github from "../../assets/images/github.png";
 type Props = { title: string; image: string; tags: string[], githubRepoLink:string };
 function ProjectCard({ title, image, tags, githubRepoLink }: Props) {
     return (
-        <a href="https://github.com/eddiewn">
+        <a className="card" href="https://github.com/eddiewn">
         <div className=" h-full w-full mb-12 sm:mb-16 lg:mb-20">
             <div className="group mx-auto w-[92%] sm:w-[90%]">
                 <div className="transition-all duration-300 group-hover:scale-110 group-hover:opacity-80">
-                    <div className="relative overflow-hidden after:pointer-events-none after:absolute after:inset-0 after:shadow-[inset_0_-15px_15px_rgba(18,18,18,1)] sm:after:shadow-[inset_0_-20px_20px_rgba(18,18,18,1)]">
+                    <div className="relative overflow-hidden after:pointer-events-none after:absolute after:inset-0 after:shadow-[inset_0_-15px_15px_rgba(18,18,18,1)] sm:after:shadow-[inset_0_-20px_20px_rgba(24,24,24,1)]">
                         <img
                             className="w-full h-auto object-cover transition duration-500"
                             src={image}
