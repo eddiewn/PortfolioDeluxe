@@ -18,7 +18,7 @@ useEffect(() => {
       });
     },
     {
-      threshold: 0.35,
+      threshold: 0.50,
     }
   );
 

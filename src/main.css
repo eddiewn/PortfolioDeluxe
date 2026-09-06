@@ -19,3 +19,32 @@ body{
   opacity: 1;
   transform: translateY(0);
 }
+
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(20px);
+
+  animation:
+    slide-up 0.7s ease-out 0.2s forwards,
+    fade-in 3s ease-out 0.2s forwards;
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(20px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
