@@ -5,7 +5,7 @@ import github from "../../assets/images/social.png";
 function FooterHeader() {
     return (
         <>
-            <footer className="flex flex-col w-full my-30">
+            <footer className="flex flex-col w-full my-15">
                 <div className="mx-auto sm:my-10 my-20 w-3/5 md:w-4/5 z-20 h-px bg-purple-400 "></div>
                 <div className="flex flex-col gap-20 w-full md:my-20">
                     <section className="flex flex-col opacity-80 md:ml-40 mx-10 text-2xl">
