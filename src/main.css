@@ -26,7 +26,7 @@ body{
 
   animation:
     slide-up 0.7s ease-out 0.2s forwards,
-    fade-in 3s ease-out 0.2s forwards;
+    fade-in 1.5s ease-out 0.2s forwards;
 }
 
 @keyframes slide-up {

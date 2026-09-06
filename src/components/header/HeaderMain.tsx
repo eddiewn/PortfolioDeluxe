@@ -24,7 +24,7 @@ function HeaderMain() {
                         href="/about"
                         className={`text-xl xl:text-2xl transition-colors ${url === "/about" ? "text-purple-400" : "text-white hover:text-purple-400"}`}
                     >
-                        About
+                        Wiik(i)-pedia
                     </a>
                     <a
                         href="/contact"
@@ -65,7 +65,7 @@ function HeaderMain() {
                         onClick={() => setMenuOpen(false)}
                         className={`text-xl transition-colors ${url === "/about" ? "text-purple-400" : "text-white hover:text-purple-400"}`}
                     >
-                        About
+                        Wiik(i)-pedia
                     </a>
                     <a
                         href="/contact"
