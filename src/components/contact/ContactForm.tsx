@@ -53,9 +53,13 @@ function ContactForm() {
                     </div>
                     <button
                         type="submit"
-                        className="mt-8 rounded-full bg-[#292929] px-8 py-5 text-sm font-bold transition-colors hover:bg-purple-400 hover:text-black"
+                        className="group relative mt-8 overflow-hidden rounded-full bg-[#292929] px-8 py-5 text-sm font-bold text-white hover:cursor-pointer"
                     >
-                        SEND MESSAGE!
+                        <span className="relative z-10 transition-colors duration-300 group-hover:text-black">
+                            SEND MESSAGE!
+                        </span>
+
+                        <span className="absolute inset-y-0 left-0 z-0 w-0 bg-purple-400 transition-all duration-500 ease-in-out group-hover:w-full" />
                     </button>
                 </form>
             </section>
