@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HeaderMain from "./components/header/HeaderMain";
 import ProjectsMain from "./components/projects/ProjectsMain";
 import FooterMain from "./components/footer/FooterMain"
+import ContactMain from "./components/contact/ContactMain"
 
 function App() {
     return (
@@ -25,7 +26,7 @@ function App() {
 
                 <Route
                     path="/contact"
-                    element={<h1>Contact</h1>}
+                    element={<ContactMain />}
                 />
             </Routes>
 			<FooterMain />

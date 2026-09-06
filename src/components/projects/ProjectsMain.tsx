@@ -34,8 +34,8 @@ useEffect(() => {
 
   return (
     <>
-      <main className="w-full sm:mt-25 md:mt-50">
-          <section className="grid grid-cols-1 md:grid-cols-2 gap-5 justify-items-center w-[80%] mx-auto overflow-hidden">
+      <main className="w-full">
+          <section className="grid grid-cols-1 md:grid-cols-2 gap-5 justify-items-center w-4/5 mx-auto overflow-hidden">
           <ProjectCard title={"Wordly"} image={wordlyProject} tags={["React", "PostgresQL", "TailwindCSS"]} githubRepoLink="https://github.com/eddiewn" />
           <ProjectCard title={"Wordly"} image={wordlyProject} tags={["React", "PostgresQL", "TailwindCSS"]} githubRepoLink="https://github.com/eddiewn" />
           <ProjectCard title={"Wordly"} image={wordlyProject} tags={["React", "PostgresQL", "TailwindCSS"]} githubRepoLink="https://github.com/eddiewn" />

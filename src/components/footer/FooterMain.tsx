@@ -1,17 +1,16 @@
 import linkedinDark from "../../assets/images/linkedin (4).png";
 import github from "../../assets/images/social.png";
-import arrow from "../../assets/images/right-arrow.png";
 
 
 function FooterHeader() {
     return (
         <>
-            <footer className="flex flex-col gap-20 w-full my-10">
-                <div className="mx-auto w-4/5 z-20 h-px bg-purple-400 "></div>
+            <footer className="flex flex-col gap-20 w-full my-30">
+                <div className="mx-auto my-20 w-3/5 md:w-4/5 z-20 h-px bg-purple-400 "></div>
                 <section className="flex flex-col opacity-80 mx-10 text-2xl">
                     <p>Web developer based in Malmö.</p>
                     <br />
-                    <p>Always searching for new problems and solving them!</p>
+                    <p>Always searching for new problems to solve!</p>
                 </section>
                 <nav className="flex flex-col items-center gap-7 text-6xl">
                     <a href="/portfolio">Work</a>
