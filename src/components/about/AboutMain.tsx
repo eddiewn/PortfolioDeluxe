@@ -7,13 +7,11 @@ function AboutMain(){
                 <section className="w-4/10">
                     <img src={profilePic} alt="" />
                 </section>
-                <section className="w-4/10">
+                <section className="w-4/10 flex flex-col gap-3">
                     <h1 className="text-4xl font-extrabold">Hello you! I'm a Frontend Webdeveloper from Sweden :]</h1>
                     <p>I started my programming journey not like many others, with accidentally choosing a programming "Gymnasie" instead of general IT, OOPS! It is not anything I regret as I found it very fun to work with.</p>
-                    <br />
                     <p>My favorite tools to work with is React and TailwindCSS as I love the clean feeling of having everything in one file!</p>
-                    <br />
-                    <p>Outside of writing code on my computer I enjoy beach volleyball when the weather allows for it.</p>
+                    <p>Outside of writing code on my computer I enjoy beach volleyball when the weather allows for it. And when it does not allow for it I have a new found hobby of reading books, latest read was 1984 by George Orwell.</p>
                 </section>
             </main>
         </>
