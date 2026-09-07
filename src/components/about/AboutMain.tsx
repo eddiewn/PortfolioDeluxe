@@ -3,7 +3,7 @@ import profilePic from "../../assets/images/profilePic.webp"
 function AboutMain(){
     return(
         <>
-            <main className="flex flex-col md:flex-row gap-5 md:gap-0 justify-between w-4/5 m-auto">
+            <main className="flex flex-col md:flex-row gap-5 md:gap-0 justify-around w-4/5 m-auto">
                 <section className="md:w-4/10">
                     <img src={profilePic} alt="" />
                 </section>
