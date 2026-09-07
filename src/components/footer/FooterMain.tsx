@@ -13,7 +13,7 @@ function FooterHeader() {
                         <br />
                         <p>Always searching for new problems to solve!</p>
                     </section>
-                    <nav className="flex flex-col md:flex-row md:ml-40 items-center gap-7 text-6xl">
+                    <nav className="flex flex-col md:flex-row md:ml-40 items-center gap-7 text-6xl font-extrabold">
                         <a href="/portfolio">Work</a>
                         <a href="/about">About</a>
                         <a href="/contact">Contact</a>

@@ -5,6 +5,8 @@ import ProjectsMain from "./components/projects/ProjectsMain";
 import FooterMain from "./components/footer/FooterMain"
 import ContactMain from "./components/contact/ContactMain"
 
+import AboutMain from "./components/about/AboutMain"
+
 function App() {
     return (
         <BrowserRouter>
@@ -16,7 +18,7 @@ function App() {
 
                 <Route
                     path="/about"
-                    element={<h1>About</h1>}
+                    element={<AboutMain />}
                 />
 
                 <Route

@@ -3,7 +3,7 @@ function HeaderMain() {
     const [menuOpen, setMenuOpen] = useState(false);
     const url = window.location.pathname;
     return (
-        <header className="w-full bg-transparent text-white mt-6 sm:mt-10 my-10 md:mb-20 lg:mb-40">
+        <header className="w-full bg-transparent text-white mt-6 sm:mt-10 my-10 lg:mb-40">
             <div className="md:mx-10 flex h-16 sm:h-20 items-center justify-between px-5 sm:px-8">
                 <nav>
                     <a
