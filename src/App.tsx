@@ -4,7 +4,7 @@ import HeaderMain from "./components/header/HeaderMain";
 import ProjectsMain from "./components/projects/ProjectsMain";
 import FooterMain from "./components/footer/FooterMain"
 import ContactMain from "./components/contact/ContactMain"
-
+import BlogProject from "./components/projects/projectPages/BlogProject";
 import AboutMain from "./components/about/AboutMain"
 
 function App() {
@@ -25,6 +25,13 @@ function App() {
                     path="/journal"
                     element={<h1>Journal</h1>}
                 />
+
+                <Route
+                    path="projects/BlogProject"
+                    element={<BlogProject />}
+                >
+
+                </Route>
 
                 <Route
                     path="/contact"
