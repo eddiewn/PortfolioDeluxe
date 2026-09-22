@@ -1,8 +1,34 @@
 function ContactForm() {
+
+    const handleSubmit = async (formData: FormData) => {
+
+    const response = await fetch(
+        "https://portfolio-contact.yourname.workers.dev",
+        {
+            method: "POST",
+            body: formData
+        }
+    );
+
+    if (!response.ok) {
+        console.log("Failed to send message");
+        return;
+    }
+
+    console.log("Message sent!");
+};
     return (
         <>
             <section className="md:w-5/10">
-                <form className="space-y-11 ">
+                <form 
+                onSubmit={async(e) => {
+                    e.preventDefault();
+
+                    const formData = new FormData(e.currentTarget);
+
+                    await handleSubmit(formData)
+                }}  
+                className="space-y-11 ">
                     <div>
                         <label
                             htmlFor="name"
