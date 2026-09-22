@@ -18,7 +18,7 @@ function ProjectCard({ title, image, tags, linkType, link }: Props) {
                 }
             }}
             className="card"
-            href={linkType === "github" ? link : ""}
+            href={linkType === "github" ? link : undefined}
         >
             <div className=" h-full w-full mb-12 sm:mb-16 lg:mb-20">
                 <div className="group mx-auto w-[92%] sm:w-[90%]">
