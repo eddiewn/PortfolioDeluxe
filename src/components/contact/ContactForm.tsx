@@ -3,7 +3,7 @@ function ContactForm() {
     const handleSubmit = async (formData: FormData) => {
 
     const response = await fetch(
-        "https://portfolio-contact.yourname.workers.dev",
+        "https://portfolio-mail-worker.eddie-wiiknilsson.workers.dev",
         {
             method: "POST",
             body: formData
