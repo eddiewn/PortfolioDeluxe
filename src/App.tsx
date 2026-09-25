@@ -6,6 +6,7 @@ import FooterMain from "./components/footer/FooterMain"
 import ContactMain from "./components/contact/ContactMain"
 import BlogProject from "./components/projects/projectPages/BlogProject";
 import AboutMain from "./components/about/AboutMain"
+import WordlyProject from "./components/projects/projectPages/WordlyProject";
 
 function App() {
     return (
@@ -27,11 +28,14 @@ function App() {
                 />
 
                 <Route
-                    path="projects/BlogProject"
+                    path="projects/Blog"
                     element={<BlogProject />}
-                >
+                />
+                <Route
+                    path="projects/Wordly"
+                    element={<WordlyProject />}
+                />
 
-                </Route>
 
                 <Route
                     path="/contact"

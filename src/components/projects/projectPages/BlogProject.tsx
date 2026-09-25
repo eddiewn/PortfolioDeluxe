@@ -3,24 +3,28 @@ import schema from "../../../assets/images/schema.png";
 import blogProfile from "../../../assets/images/blogProfile.png";
 import blogpost from "../../../assets/images/blogPost.png";
 
-
 const BlogProject = () => {
     return (
         <>
-            <main className="flex flex-col w-9/10 m-auto gap-10">
-            <div className="flex items-center w-3/5 mx-auto">
-                <a
-                    href="https://blog.eddiewiiknilsson.com"
-                    className="p-5 bg-purple-500 mb-20 mx-auto rounded-xl font-bold cursor-pointer"
-                >
-                    Link to project
-                </a>
-                <a
-                    href="https://github.com/eddiewn/blog"
-                    className="p-5 bg-purple-500 mb-20 mx-auto rounded-xl font-bold cursor-pointer"
-                >
-                    Link to Github Repo
-                </a>
+            <main className="flex flex-col w-9/10 m-auto gap-10 text-white">
+                <h1 className="text-9xl font-semibold">Blog</h1>
+                <div className="flex flex-col lg:flex-row gap-5 w-fit lg:mb-20">
+                    <a
+                        href="https://blog.eddiewiiknilsson.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center justify-center whitespace-nowrap shrink-0 px-6 py-3 rounded-xl bg-purple-500 text-white font-bold shadow-md shadow-purple-500/20 transition-all duration-200 hover:-translate-y-1 hover:bg-purple-400 hover:shadow-lg hover:shadow-purple-500/30"
+                    >
+                        View Live Project →
+                    </a>
+                    <a
+                        href="https://github.com/eddiewn/blog"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center justify-center whitespace-nowrap shrink-0 px-6 py-3 rounded-xl bg-purple-500 text-white font-bold shadow-md shadow-purple-500/20 transition-all duration-200 hover:-translate-y-1 hover:bg-purple-400 hover:shadow-lg hover:shadow-purple-500/30"
+                    >
+                        View GitHub Repo ↗
+                    </a>
                 </div>
                 <section className="flex flex-col lg:flex-row gap-10 justify-around">
                     <img

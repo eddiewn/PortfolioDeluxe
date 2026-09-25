@@ -1,6 +1,6 @@
 import linkedinDark from "../../assets/images/linkedin (4).png";
 import github from "../../assets/images/social.png";
-
+import EddieCV from "../../assets/EddieCV.pdf"
 
 function FooterHeader() {
     return (
@@ -14,16 +14,16 @@ function FooterHeader() {
                         <p>Always searching for new problems to solve!</p>
                     </section>
                     <nav className="flex flex-col md:flex-row md:ml-40 items-center gap-7 text-6xl font-extrabold">
-                        <a href="/portfolio">Work</a>
-                        <a href="/about">About</a>
-                        <a href="/contact">Contact</a>
+                        <a className="hover:text-violet-400 duration-200 transition-colors" href="/portfolio">Work</a>
+                        <a className="hover:text-violet-400 duration-200 transition-colors" href="/about">About</a>
+                        <a className="hover:text-violet-400 duration-200 transition-colors" href="/contact">Contact</a>
                     </nav>
                     <nav className="flex m-auto gap-5">
                         <a href=""><img className="w-15 border-2 rounded-full bg-white" src={linkedinDark} alt="" /></a>
                         <a href=""><img className="w-15" src={github} alt="" /></a>
-                        <button className="text-3xl w-15 h-15 border-2 rounded-full hover:bg-white hover:text-black transition-all duration-500">
+                        <a href={EddieCV} download="Eddie_Wiik_Nilsson_CV" className="flex justify-center  items-center text-3xl w-15 h-15 border-2 rounded-full hover:bg-violet-400 hover:text-black transition-all duration-500">
                             CV
-                        </button>
+                        </a>
                     </nav>
                 </div>
             </footer>

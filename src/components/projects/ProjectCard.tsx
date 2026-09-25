@@ -18,6 +18,8 @@ function ProjectCard({ title, image, tags, linkType, link }: Props) {
                 }
             }}
             className="card"
+            target={linkType === "github" ? "_blank" : undefined}
+            rel={linkType === "github" ? "noopener noreferrer" : undefined}
             href={linkType === "github" ? link : undefined}
         >
             <div className=" h-full w-full mb-12 sm:mb-16 lg:mb-20">
