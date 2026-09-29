@@ -17,7 +17,7 @@ function ProjectCard({ title, image, tags, linkType, link }: Props) {
                     navigate(link);
                 }
             }}
-            className="card"
+            className="card hover:cursor-pointer"
             target={linkType === "github" ? "_blank" : undefined}
             rel={linkType === "github" ? "noopener noreferrer" : undefined}
             href={linkType === "github" ? link : undefined}
@@ -41,7 +41,7 @@ function ProjectCard({ title, image, tags, linkType, link }: Props) {
 
                         {linkType === "read-more" && (
                             <div className="absolute top-1/3 left-1/2 h-16 w-16 sm:h-20 sm:w-20 lg:h-25 lg:w-25 -translate-x-1/2 -translate-y-1/2 rotate-45 scale-50 rounded-full bg-white opacity-0 transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:translate-y-0 group-hover:rotate-0 group-hover:scale-100 group-hover:opacity-100 flex items-center justify-center">
-                                <p className="text-black">Read More</p>
+                                <p className="text-black font-bold">Read More</p>
                             </div>
                         )}
 
