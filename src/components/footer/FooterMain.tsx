@@ -1,4 +1,4 @@
-import linkedinDark from "../../assets/images/linkedin (4).png";
+// import linkedinDark from "../../assets/images/linkedin (4).png";
 import github from "../../assets/images/social.png";
 import EddieCV from "../../assets/EddieCV.pdf";
 
