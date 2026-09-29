@@ -55,6 +55,7 @@ function FooterHeader() {
                         >
                             CV
                         </a>
+                        {/* <Test kommentar */}
                     </nav>
                 </div>
             </footer>
